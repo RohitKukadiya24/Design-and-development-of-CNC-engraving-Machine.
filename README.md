@@ -7,13 +7,11 @@ exact positioning of the inputs. It is referred to computer that changes the des
 form of numbers and the computer functions to shape and cut the material. The CNC
 machine includes three steps input, process and output. The production requires three
 parts of the equipment. They are computer, an interface and computer numerical control.
-This project would include building a machine which would perform functions like drilling,![image](https://user-images.githubusercontent.com/95118920/143779763-8b2c6d73-546c-4aa1-ab00-1fc6bd7772d2.png)
-
+This project would include building a machine which would perform functions like drilling,
 boring, facing, engraving etc. It will be an automatic machine which would perform all the
 above functions by automatically working according to the command given to the circuit.
 These machines can be used to produce machine tools as well as control mechanism. This
-machine includes some important parts such as stepper motor, a table, parallel port![image](https://user-images.githubusercontent.com/95118920/143779760-212de3b1-6cfb-452d-813d-e6e95779ce22.png)
-
+machine includes some important parts such as stepper motor, a table, parallel port
 breakout board, linear guide, spindle motor, etc. The software used to run this machine is 
 EMC2 and MACH3. As name suggests the machine would be performing almost all
 important functions so it would be an excellent substitute for various machines in one, it
@@ -24,7 +22,7 @@ there is remarkable increase in the quality of products as well as it offers hig
 It increases the productivity and reduces the lead time. The production is economical in
 nature and decreases the amount of scrap particularly for industries involved in mass
 production.
-![image](https://user-images.githubusercontent.com/95118920/143779764-7bd0e412-b9d5-4941-af6c-ab09c905941e.png)
+
 
 INTRODUCTION:
 
