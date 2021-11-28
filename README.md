@@ -76,19 +76,6 @@ which would do work of lathe, drilling, boring, etc. in one machine.
 6. Used in industries for removing metal,
 7. Used in automated industries for industries having mixed layout.
 
-Advantages
-1. Reduction in lead time.
-2. More accuracy obtained in production.
-3. Precision in work pieces.
-4. Requires fewer workforces.
-5. Reduction In floor space.
-6. Reduction in cost.
-7. Mass production.
-8. Used for mixed type of plant layouts.
-9. As 4 axes is used rounded parts can be operated which a conventional machine
-cannot do.
-10. Products with complex geometry can be produced.
-
 
 COMPONENTS USED IN MACHINE
 There are basically two types of components used in this machine that is electrical and
@@ -129,6 +116,33 @@ Mostly it is observed in conventional CNC machine that stability obtained is lit
 A CNC machine available in market occupies more floor space while in this project we make our machine more compact and additional advantage of performing most of the functions in one machine.
 In this project dual stepper motor is used which gives advantage of stability in Y axis while conventional machine is used only one stepper motor in one axis. The advantage of 4 axis over 3 axis is that in 4 axis we get benefit of operating round or circular parts while in 3 axis only flat surfaces are operated.
 The controlling of this machine is done by USB which gives more advantages over conventional ones.
+
+DESIGN OF MECHANICAL STRUCTURE
+Refer books on mechanical parts and go through internet. Decide to make 4-axis CNC multi machine. Decide work envelope of machine and further start design through solidworks 3D modeling software.
+
+DESIGNING CIRCUITS AND ITS ASSEMBLY
+The circuits like wires, motors and transformers are mounted and connected together and connected to PC via software which work according to the information given to the computer.
+
+MANUFACTURING OF PARTS AND ITS FINAL ASSEMBLY
+Some parts like frame body, plates and fixtures were ordered from various local vendors and then welded, drilled and processed to join together to form a firm and rigid structure. The frame structure was welded in shop by us this structure is very rigid and stable because we used C structure which is very stable when analyzed by the inertia forces and moments calculation. After forming frame of the machine the parts like plates, bearings, motors, linear guide ways, shafts and circuits were ordered then positioned together and assembled in proper way to form a complete automatic CNC multimachine which could perform all the functions in one floor.
+
+![DSC_0790-min (1)](https://user-images.githubusercontent.com/95118920/143781419-bdb803f5-7c32-4857-9b29-342954e72ce2.jpg)
+
+![DSC_0818-min](https://user-images.githubusercontent.com/95118920/143781423-411fa22b-ba7a-4934-9c4c-57dab4ddedbd.jpg)
+
+![DSC_1146-min](https://user-images.githubusercontent.com/95118920/143781425-5e6a5ddb-8b1e-4a3d-b3af-b3d3f1169883.jpg)
+
+PRODUCT DEVELOPMENT CANVAS
+![image](https://user-images.githubusercontent.com/95118920/143781468-ba64272d-862e-4b40-b953-29b3ceecd11c.png)
+
+DESCRIPTION OF PRODUCT DEVELOPMENT CANVAS
+Product development is very important stage of any machine the first thing was purpose of product development which is to increase accuracy, reduce cost and reduce human work all this functions are main to form a reliable and feasible machine.
+The second part is the product experience of the machine which includes high speed machining, high accuracy and high precision. Also the functions of the product will be ease in manufacturing the part, less time consumption and quick performance.
+The next part of product development includes product features which are compactness, less cost and high speed machining with higher accuracy in all directions. The main components used in the machine is breakout board, guide ways, software like EMC2, MACH3, ball screw with recirculating nut, stepper motor, and couplings.
+The next part is the people including the project is people that take part in this machine is students, skilled users, engineers, industrialist, pattern maker and goldsmith or an engraver.
+
+IMPLEMENTATION
+
 
 
 DESIGN: ANALYSIS, DESIGN METHODOLOGY AND IMPLEMENTATION STRATEGY
