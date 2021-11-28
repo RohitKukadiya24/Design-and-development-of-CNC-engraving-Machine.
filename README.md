@@ -110,6 +110,7 @@ ELECTRICAL COMPONENTS
 WORK ENVELOPE:- 600X450X300 mm
 
 BRIEF PROBLEM SOLUTION OF PRESENT TECHNOLOGY:
+
 In conventional CNC machine, the gantry mounting is lower mount which increases motion path . The tool motion is to be given to upper mount for increasing stability so in this project we will use upper mount of gantry so that the motion which is to be transferred to upper side will remain in upper side only.
 In present type of CNC machine rigidity provided is little less due to use of less stable structure in manufacturing. While in this project we will use more stable structure by using C channel and upper mount gantry.
 Mostly it is observed in conventional CNC machine that stability obtained is little less due to some unwanted tool motions or due to flexible structure of machine. Here in this project stability obtained is great due to balancing and eliminating unnecessary tool motion and necessary arrangement modification of parts in the machine.
@@ -118,12 +119,15 @@ In this project dual stepper motor is used which gives advantage of stability in
 The controlling of this machine is done by USB which gives more advantages over conventional ones.
 
 DESIGN OF MECHANICAL STRUCTURE
+
 Refer books on mechanical parts and go through internet. Decide to make 4-axis CNC multi machine. Decide work envelope of machine and further start design through solidworks 3D modeling software.
 
 DESIGNING CIRCUITS AND ITS ASSEMBLY
+
 The circuits like wires, motors and transformers are mounted and connected together and connected to PC via software which work according to the information given to the computer.
 
 MANUFACTURING OF PARTS AND ITS FINAL ASSEMBLY
+
 Some parts like frame body, plates and fixtures were ordered from various local vendors and then welded, drilled and processed to join together to form a firm and rigid structure. The frame structure was welded in shop by us this structure is very rigid and stable because we used C structure which is very stable when analyzed by the inertia forces and moments calculation. After forming frame of the machine the parts like plates, bearings, motors, linear guide ways, shafts and circuits were ordered then positioned together and assembled in proper way to form a complete automatic CNC multimachine which could perform all the functions in one floor.
 
 ![DSC_0790-min (1)](https://user-images.githubusercontent.com/95118920/143781419-bdb803f5-7c32-4857-9b29-342954e72ce2.jpg)
@@ -136,6 +140,7 @@ PRODUCT DEVELOPMENT CANVAS
 ![image](https://user-images.githubusercontent.com/95118920/143781468-ba64272d-862e-4b40-b953-29b3ceecd11c.png)
 
 DESCRIPTION OF PRODUCT DEVELOPMENT CANVAS
+
 Product development is very important stage of any machine the first thing was purpose of product development which is to increase accuracy, reduce cost and reduce human work all this functions are main to form a reliable and feasible machine.
 The second part is the product experience of the machine which includes high speed machining, high accuracy and high precision. Also the functions of the product will be ease in manufacturing the part, less time consumption and quick performance.
 The next part of product development includes product features which are compactness, less cost and high speed machining with higher accuracy in all directions. The main components used in the machine is breakout board, guide ways, software like EMC2, MACH3, ball screw with recirculating nut, stepper motor, and couplings.
@@ -146,27 +151,32 @@ IMPLEMENTATION
 DESCRIPTION OF VARIOUS PARTS
 
 FRAME
+
 ![image](https://user-images.githubusercontent.com/95118920/143781547-82a3740a-d12e-48d4-9947-404ba32bc05b.png)
 
 BALL SCREW AND RECIRCULATING NUT
+
 ![image](https://user-images.githubusercontent.com/95118920/143781557-906826d6-6555-44e7-8d85-39bbf3d82019.png)
 
 A ball screw is a mechanical linear Actuator that translates rotational motion to linear motion with little friction. A threaded shaft provides a helical raceway for ball bearings which act as a precision screw. As well as being able to apply or withstand high thrust loads, they can do so with minimum internal friction. They are made to close tolerances and are therefore suitable for use in situations in which high precision is necessary. The ball assembly acts as the nut while the threaded shaft is the screw. In contrast to conventional lead screws, ball screws tend to be rather bulky, due to the need to have a mechanism to re-circulate the balls. Dimension as per our design X axis – 600 mm travelling so length of ball screw is 760 mm Y axis- 450 mm travelling so length of ball screw is 610 mm Z axis – 300 mm travelling so length of ball screw is 460 mm
 The diameter of all ball screw is 20 mm and pitch is 5 mm.
 
 LINEAR GUIDEWAYS
+
 ![image](https://user-images.githubusercontent.com/95118920/143781575-a93b30f4-8390-4892-975d-407425c44d73.png)
 
 FUNCTION:- To support the ball screw and to components in motion DESCRIPTION:- A linear-motion bearing or linear slide is a bearing designed to provide free motion in one direction. There are many different types of linear motion bearings. Also called "ball slides," ball bearing slides are the most common type of linear slide. Ball bearing slides offer smooth precision motion along a single-axis linear design, aided by ball bearings housed in the linear base, with self-lubrication properties that increase reliability. It is one type of supporting member which support the linear motion members. For one axis we require two linear guide ways
 Dimensions of shaft :- for ball screw in x axis we use 760 mm shaft and for y axis ball screw we use 610 mm shaft and for z axis ball screw we use 460 mm shaft
 
 BEARING
+
 ![image](https://user-images.githubusercontent.com/95118920/143781587-c70b5d6b-f8b3-4d92-9204-8f1b7e03b2c6.png)
 ![image](https://user-images.githubusercontent.com/95118920/143781593-c0266d19-814b-4523-8968-f16ff958ca9f.png)
 
 FUNCTION:- A bearing is a machine element that constrains relative motion and reduces friction between moving parts to only the desired motion. DESCRIPTION:- The design of the bearing may, for example, provide for free linear movement of the moving part or for free rotation around a fixed axis; or, it may prevent a motion by controlling the vectors of normal forces that bear on the moving parts. Many bearings also facilitate the desired motion as much as possible, such as by minimizing friction. Bearings are classified broadly according to the type of operation, the motions allowed, or to the directions of the loads (forces) applied to the parts. In our project we use the two type of the bearings like SMA20&LMKUU bearings.The SMA20 type bearing is the square type bearing.The LMKUU type bearing is the round type bearing. They both are used for the different purposes.
 
 COUPLING
+
 ![image](https://user-images.githubusercontent.com/95118920/143781612-91f56fc7-527a-49de-97c6-db5daefc4455.png)
 
 FUNCTION:-
@@ -179,6 +189,7 @@ In our project we use ALS 40 COUPLING with sitting.
 ELECTRICAL COMPONENTS
 
 CONTROLLER BOARD
+
 ![image](https://user-images.githubusercontent.com/95118920/143781628-453369ad-3550-4f95-9b68-6054e722bea0.png)
 
 FUNCTION:-
@@ -189,6 +200,7 @@ This software/hardware combination can be further expanded with jog key inputs a
 The software runs on Windows and replaces Mach3 or EMC2. It can even be run through a virtual machine on a Mac or Linux host. In our project we use USB 5 axis CNC breakout board for stepper driver controller.
 
 STEPPER MOTOR
+
 ![image](https://user-images.githubusercontent.com/95118920/143781645-c37f91d5-987a-4d4a-ad3f-82430f3f0abe.png)
 
 FUNCTION: -
@@ -201,6 +213,7 @@ The design of the stepper motor provides a constant holding torque without the n
 In our project we use SY85STH65-4004A SOYO type and provide torque 34 KG per cm.
 
 STEPPER MOTOR DRIVER
+
 ![image](https://user-images.githubusercontent.com/95118920/143781665-c7f9808b-2fb9-460f-b1a2-527d3d19c975.png)
 FUNCTION: -
 It takes inputs from controller converts it into stepped signal and sends it to stepper motor
@@ -208,12 +221,14 @@ DESCRIPTION: -
 The DRIVER is a complete microstepping motor driver and control system with a built- in translator. It is designed to operate uni-polar stepper motors in full-, half-, quarter-, eighth-, and sixteenth-step modes with output drive capability of 44V and 3.0 A. This driver utilizes the Sanken SLA7078MPR chip which includes built-in sense current detection and load circuit short or open protection provide lower loss and lower thermal resistance.
 
 LIMIT SWITCH
+
 ![image](https://user-images.githubusercontent.com/95118920/143781681-80759568-8897-4c10-9fcb-5683a361997d.png)
 FUNCTION:-
 IT provides limit to the signal or cut the signal when component touches it.
 DESCRIPTION:- In electrical engineering a limit switch is a switch operated by the motion of a machine part or presence of an object. They are used for controlling machinery as part of a control system, as a safety interlocks, or to count objects passing a point.[1] A limit switch is an electromechanical device that consists of an actuator mechanically linked to a set of contacts. When an object comes into contact with the actuator, the device operates the contacts to make or break an electrical connection.
 
 Overview of and assembally of electronic components
+
 ![image](https://user-images.githubusercontent.com/95118920/143781728-9c5397ab-2f90-4713-9f1e-b4bd79bdbb48.png)
 ![DSC_0843-min](https://user-images.githubusercontent.com/95118920/143781741-f2165c64-a8b1-4da8-8f9d-1231b25a8cca.jpg)
 ![DSC_0845-min](https://user-images.githubusercontent.com/95118920/143781746-011107f1-8da2-4b4e-90e3-28e4e7f170d7.jpg)
@@ -223,18 +238,23 @@ WORKING OF THE MACHINE
 STEP – 1 INPUT OF G-CODE AND N-CODE
 The part file is first converted into G code and N code this codes are fed in software of MACH3 and then run the program.
 Now software give command to controller
+
 STEP – 2 WORING OF CONTROLLER
 The signals that come from the software are decoded and the feed to driver as input signal it controls the axis and every motion of machine. Limit switch is controlled with it and we can connect it with manual remote for controls. Controller gets power from DC supply of 5V.
+
 STEP – 3 DRIVER
 Driver takes input from controller and gives it to stepper motor and the RPM of motor is controlled with this signals. Driver gets power from power supply of 24 V and 5 A. it also saves stepper motor from shock circuit conditions.
+
 STEP – 4 STEPPER MOTOR
 It Converts electrical power into mechanical power driven with the help of stepper motor driver.
 It connects with the linear motion guide or Ball screw with the help of coupling and it gives linear movement to the component.
+
 STEP – 5 SPINDLE MOTOR
 Its controlled by the controller. It holds tool holder and have high torque and the machining work is done by spindle motor.
 Thus, the torque of this spindle motor is fed to tools and final operation of work piece is done.
 
 CONSTRUCTION OF THE MACHINE
+
 1. Frame structure :- Here in our machine we placed bolt screw on upper side of the frame as a result the whole gantry movement is done with less movable parts and rigidity is increased. It also increases accuracy of the machine.
 2. Bolt screw and mountings :- As we mounted bolt screw at the top of the frame and on its mounting we include bearings and end support. Also we couple bolt screw with stepper motor with the help of shaft coupling.
 3. Linear Guide way :- We use round bar guide way which provide support to gantry in linear motion.
@@ -250,4 +270,8 @@ switch it will cut off driver power and stepper motor will stop.
 machining purpose.
 
 Final working Product
+![DSC_1493](https://user-images.githubusercontent.com/95118920/143781978-ff5c1940-b0b8-4bca-a9f9-ee7728ac0bd6.JPG)
+![DSC_1827](https://user-images.githubusercontent.com/95118920/143781994-0f2a6a6a-356f-457e-b6bd-f9f75a4b17a7.JPG)
+![DSC_1833](https://user-images.githubusercontent.com/95118920/143782006-6a93bfbd-7332-45b3-b9fa-87e210dd50d9.JPG)
+![DSC_1839](https://user-images.githubusercontent.com/95118920/143782010-cd3284a8-c66b-4b34-830f-66c53264b33f.JPG)
 
